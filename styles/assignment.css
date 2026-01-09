@@ -43,3 +43,69 @@ nav .menu {
     font-size: 16px;
     font-weight: 600px;
 }
+
+/* banner-section */
+#hero-section {
+    width: 100%;
+    height: 1000px;
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#hero-section .content {
+    width: 71%;
+    padding: 115.5px 120px 179.5px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#hero-section .content .title {
+    background-color: antiquewhite;
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 8px 12px 8px 34px;
+    color: #30B868;
+    border-radius: 1000px;
+
+}
+
+#hero-section .content .subtitle {}
+
+#hero-section .content span .badge {}
+
+.skills {
+    padding: 0;
+}
+
+.skills .skills-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.skills .skills-container .skill-box {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-box .skill-card {
+    padding: 24px;
+    max-width: 322px;
+}
+
+.skill-card img {
+    background-color: #F95555;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
