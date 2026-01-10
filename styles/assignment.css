@@ -314,3 +314,56 @@ nav .menu {
 .icon-cheak {
     margin-right: 6px;
 }
+
+.cta-container {
+    background-color: #F7F6F2;
+    max-width: 1360px;
+    padding: 80px 40px;
+    border-radius: 12px;
+    text-align: center;
+    margin: 120px;
+
+}
+
+.cta-containe h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 80px;
+    margin-bottom: 16px;
+
+}
+
+.explain {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 24px;
+    line-height: 1.7;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.cta-button {
+    background-color: #30B868;
+    border: none;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    margin: 24px 120px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600px;
+
+}
+
+.cta-button:hover {
+    background-color: blueviolet;
+}
+
+.footer {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
