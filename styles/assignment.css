@@ -438,24 +438,3 @@ footer .footer-container {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.75);
 }
-
-
-@media (max-width: 900px) {
-    .cta-container {
-        margin: 60px 16px;
-        padding: 60px 20px;
-    }
-
-    .site-footer {
-        padding: 70px 16px 24px;
-    }
-
-    footer .footer-container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .footer-divider {
-        margin: 40px auto 14px;
-    }
-}
