@@ -220,18 +220,26 @@ nav .menu {
 
 .icon {
     background-color: #F95555;
-    height: 60px;
     width: 60px;
+    height: 60px;
     border-radius: 50%;
-    background-size: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 14px 13px;
-    margin-top: 69.5px;
-    margin-left: 131px;
-    margin-right: 131px;
 
+
+    margin: 69.5px auto 0;
+
+
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 
